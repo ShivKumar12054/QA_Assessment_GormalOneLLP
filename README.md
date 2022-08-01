@@ -1,6 +1,6 @@
 # QA_Assessment_GormalOneLLP
 
-This assessment is done by using selenium with TestNG as mail testing framework
+This assessment is done by using selenium with TestNG as main testing framework
 
 Please read the below instructions first:
 
