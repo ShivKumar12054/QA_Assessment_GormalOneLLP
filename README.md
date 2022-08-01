@@ -32,4 +32,4 @@ Please read the below instructions first:
   
   -> Go to testng.xml and upon right click select Run
   
-  ->  
+  -> Refresh project and go to test-output file select index.html and click on show to check status of testcases.
