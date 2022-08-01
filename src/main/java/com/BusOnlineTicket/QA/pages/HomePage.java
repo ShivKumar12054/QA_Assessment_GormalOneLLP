@@ -149,8 +149,7 @@ public class HomePage extends BaseTest {
         //All available seats web elements
         List<WebElement> availableSeats = driver.findElements(By.xpath("//div[@class='seat_available']"));
         //Total size
-        int totalAvailableSeats = availableSeats.size(); //7
-        System.out.println("ava seats"+totalAvailableSeats);
+        int totalAvailableSeats = availableSeats.size();
 
         //Select N seats if totalAvailableSeats >= N or select all available seats
         //here N is seats to select by customer
@@ -159,7 +158,6 @@ public class HomePage extends BaseTest {
                 String seatStatus = driver.findElement(By.xpath("//div[normalize-space()='"+ i +"']")).getAttribute("class");
 
                 if (seatStatus.equals("seat_available")) {
-                    //,  //div[contains(text(),'"+i+"')]
                     driver.findElement(By.xpath("//div[normalize-space()='" + i + "']")).click();
                     count++;
                 }
