@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.BusOnlineTicket.QA.utils.Listerners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="J:/Selenium_Projects/QA_Assessment_GormalOneLLP/src/test/java/com/BusOnlineTicket/TestCases/HomePageTest.java">
+        <classes>
+            <class name="com.BusOnlineTicket.TestCases.HomePageTest"></class>
+        </classes>
+    </test>
+</suite>
